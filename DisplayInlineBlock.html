@@ -6,20 +6,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style></style>
+    <style>
+      .container {
+        border: 2px solid #555;
+        width: 700px;
+        height: 200px;
+      }
+      .box {
+        display: inline-block;
+        height: 150px;
+        margin: 40px;
+        width: 100px;
+        text-align: center;
+      }
+      .box1 {
+        background: rgb(182, 182, 47);
+      }
+      .box2 {
+        background: rgb(216, 45, 96);
+      }
+      .box3 {
+        background: lightblue;
+      }
+    </style>
   </head>
   <body>
+    <h2>display: inline-block (Product cards)</h2>
     <div class="container">
       <div class="box box1">
-        <h2>Book</h2>
+        <h4>Book</h4>
+        <p>$10</p>
       </div>
       <div class="box box2">
-        <h2>Headphones</h2>
+        <h4>Headphones</h4>
+        <p>$25</p>
       </div>
       <div class="box box3">
-        <h2>Watch</h2>
+        <h4>Watch</h4>
+        <p>$50</p>
       </div>
     </div>
   </body>
 </html>
-
