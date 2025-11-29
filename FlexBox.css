@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  flex-wrap: nowrap;
+  /* flex-flow: ; mixture of flex directiona nd wrap */
+  justify-content: center; /* horizontal spacing main axis, child spacing */
+  align-content: center;
+  align-items: center; /* works on cross axis , row spacing */
+  gap: 20px;
+  height: 600px;
+  width: 1000px;
+  background-color: rgb(26, 221, 221);
+  border: 1px solid black;
+}
+.item {
+  /*current order of child is 0, by default it takes from html file */
+  flex-grow: 1;
+  /* flex-shrink: ; */
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: greenyellow;
+  text-align: center;
+  align-content: center;
+}
+.item2 {
+  order: -1;
+  flex-grow: 2;
+  /* align-self: flex-end; */
+}
