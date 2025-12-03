@@ -14,6 +14,8 @@
   column-gap: 10px;
   justify-items: center;
   align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .item {
   height: 100px;
